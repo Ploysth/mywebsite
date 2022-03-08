@@ -1,0 +1,168 @@
+* {
+}
+
+/* NAV */
+.nav {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f4f4f3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #c0754d;
+}
+
+.active {
+  background-color: #c0754d;
+}
+
+/* SOCIAL ICONS */
+
+ul .fa {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+  border: solid 2px black; /* icon rand */
+  justify-content: flex-end;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: white;
+  color: black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.fa-twitter {
+  background-color: white;
+  color: black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.fa-pinterest {
+  background-color: white;
+  color: black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background-color: white;
+  color: black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background-color: white;
+  color: black;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.welcome {
+  /* CSS of Page 1 */
+  height: 500px;
+  border: solid 2px black;
+  background-image: url(pexels-abdullah-ghatasheh-1631677.jpg);
+}
+
+.welcome h1 {
+  font-size: 140px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.welcome p {
+  text-align: center;
+}
+
+.aboutMe {
+  /* Page 2 */
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: #c0754d;
+}
+
+.aboutMe h1 {
+  font-size: 140px;
+  text-align: center;
+}
+
+.aboutMe p {
+  text-align: center;
+}
+
+/* Page 3 */
+.skill {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f3;
+}
+
+.skill h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.skill ul li {
+  list-style-type: none;
+}
+
+/* Page 4 */
+.contact {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  background-color: #c0754d;
+}
+
+.contact h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  
+}
